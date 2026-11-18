@@ -327,7 +327,7 @@ $DIMALTTD
   9
 $DIMTXSTY
   7
-STANDARD
+standard
   9
 $DIMAUNIT
  70
@@ -809,6 +809,12 @@ $SNAPSTYLE
  70
     0
   9
+$GRIDUNIT
+ 10
+0.01
+ 20
+0.01
+  9
 $PLIMMIN
  10
 0
@@ -1115,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-49.57617579120444
+44.00867027937995
  22
--23.98942635242649
+13.08142577140518
  13
 0
  23
@@ -1127,9 +1133,9 @@ AcDbViewportTableRecord
  24
 10
  15
-10
+0.01
  25
-10
+0.01
  16
 0
  26
@@ -1143,9 +1149,9 @@ AcDbViewportTableRecord
  37
 0
  40
-23.40768522838491
+67.36245776180435
  41
-0.6166807076663858
+1.650858544562551
  42
 50
  43
@@ -1201,7 +1207,7 @@ AcDbViewportTableRecord
 348
 10020
  60
-    7
+    3
  61
     5
 292
@@ -77765,45 +77771,137 @@ kbplate
  45
 0
   0
-INSERT
+CIRCLE
   5
 C4B
 100
 AcDbEntity
   8
-User.4
+0
   6
 ByLayer
  62
   256
 370
-   -1
+    0
 100
-AcDbBlockReference
-  2
-HE75-User_4
+AcDbCircle
  10
--2.249994201190715
+92.75
  20
-1.974988403052599
- 30
+-66.25
+ 40
+1.1
+  0
+CIRCLE
+  5
+C4C
+100
+AcDbEntity
+  8
 0
- 41
-25.4
- 42
-25.4
- 43
+  6
+ByLayer
+ 62
+  256
+370
+    0
+100
+AcDbCircle
+ 10
+188
+ 20
+-26
+ 40
+1.1
+  0
+CIRCLE
+  5
+C4D
+100
+AcDbEntity
+  8
 0
- 50
+  6
+ByLayer
+ 62
+  256
+370
+    0
+100
+AcDbCircle
+ 10
+273.75
+ 20
+-16.5
+ 40
+1.1
+  0
+CIRCLE
+  5
+C4E
+100
+AcDbEntity
+  8
 0
- 70
-    1
- 71
-    1
- 44
+  6
+ByLayer
+ 62
+  256
+370
+    0
+100
+AcDbCircle
+ 10
+273.75
+ 20
+-73.75
+ 40
+1.1
+  0
+CIRCLE
+  5
+C4F
+100
+AcDbEntity
+  8
 0
- 45
+  6
+ByLayer
+ 62
+  256
+370
+    0
+100
+AcDbCircle
+ 10
+7
+ 20
+-73.75
+ 40
+1.1
+  0
+CIRCLE
+  5
+C50
+100
+AcDbEntity
+  8
 0
+  6
+ByLayer
+ 62
+  256
+370
+    0
+100
+AcDbCircle
+ 10
+7
+ 20
+-16.5
+ 40
+1.1
   0
 ENDSEC
   0
@@ -77837,7 +77935,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-C4C
+C51
 100
 AcDbPlotSettings
   6

@@ -21,8 +21,14 @@ You may change the Hall-effect sensors during the component selection based on y
 - DRV5055A3
 - OH49E-S (Discontinued)
 
-The fabrication files above are available [here](https://github.com/peppapighs/HE60/releases).
+The fabrication files above are available under releases.
+
+## Case
+Currently the only plate made is for the [kbdfansGT-60](https://kbdfans.com/collections/gt-60) case. Other gasket and top mount cases *might* use the same mounting, but I am not sure.
+
+Plate fabrication files can be found in the folder named after the compatible case.
 
 ## Firmware
+Firmware is not yet made, but will use libhmk.
 
 Head to [libhmk](https://github.com/peppapighs/libhmk/releases) for a pre-compiled firmware. The firmware can be flashed using DFU mode, which can be entered by holding the BOOT button before plugging in. You may need to install the DFU bootloader driver using Zadig. See [libhmk](https://github.com/peppapighs/libhmk) for more information for firmware flashing instructions.

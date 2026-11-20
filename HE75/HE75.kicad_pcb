@@ -91,7 +91,7 @@
 		(filling no)
 		(grid_origin 9 9)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55557555_57555550)
+			(layerselection 0x00000000_00000000_55557555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -120,7 +120,7 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 3)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -48617,7 +48617,7 @@
 			(uuid "b663dbe5-d8fc-406e-bc9e-dc4d9920160e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -80582,7 +80582,7 @@
 			(uuid "95368970-6b00-4d5c-ae26-4acad2641e3e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
